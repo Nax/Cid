@@ -10,3 +10,4 @@ target_compile_definitions(
 )
 
 set_target_properties(cid PROPERTIES OUTPUT_NAME "${CID_NAME}")
+install(TARGETS cid RUNTIME DESTINATION bin)
